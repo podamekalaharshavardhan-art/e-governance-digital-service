@@ -1,135 +1,240 @@
-# E-Governance Digital Service Application
+# E-Governance Digital Service
 
 ## Project Overview
 
-This project focuses on the analysis, planning, and prototype design of an E-Governance Digital Service Application.
+The **E-Governance Digital Service** is a proposed digital platform designed to make government services easier for citizens to discover, understand, apply for, and track online.
 
-The proposed platform is designed to simplify access to government services by allowing citizens to discover services, check eligibility, submit applications, upload supporting documents, track application status, receive notifications, and provide feedback.
+The project focuses on creating a simple, accessible, responsive, and user-friendly interface that can support multiple government services through a centralized digital portal.
 
-The project also considers the requirements of government officials and administrators who will process applications, manage services, monitor workflows, and generate reports.
+The development work is organized into weekly stages, beginning with requirements analysis and system planning, followed by prototype design and front-end development planning.
 
-## Week 1 – Requirements Analysis and System Planning
+---
 
-Week 1 focused on understanding the requirements and planning the proposed system.
+## Project Objectives
 
-### Deliverables
+- Provide citizens with a centralized platform for accessing government services.
+- Make government services easier to search and understand.
+- Provide clear eligibility information and required-document details.
+- Support online application submission.
+- Allow citizens to upload required documents.
+- Provide application status tracking.
+- Design a responsive interface for mobile, tablet, and desktop devices.
+- Follow accessibility and usability principles.
+- Plan secure integration with backend government services.
+- Build the project using modern front-end technologies.
 
-* Requirements analysis
-* Stakeholder identification
-* User personas
-* Functional requirements
-* Non-functional requirements
-* Business rules
-* System architecture
-* Application workflow
-* Module planning
-* Security and privacy considerations
-* Testing strategy
-* Requirements Traceability Matrix
-* Risk analysis
-* Implementation roadmap
+---
 
-## Week 2 – Prototype Design
+# Week 1 – Requirements Analysis and System Planning
 
-Week 2 focused on converting the requirements into a practical UI/UX prototype concept.
+## Objective
 
-### Deliverables
+Week 1 focused on understanding the requirements of the proposed e-governance application and establishing the overall system plan.
 
-* UI/UX research
-* Information architecture
-* User personas and user needs
-* Low-fidelity wireframes
-* High-fidelity mockup concepts
-* Annotated screen specifications
-* Citizen application user flow
-* Application tracking flow
-* Feedback flow
-* Accessibility considerations
-* Responsive design approach
-* Usability testing plan
-* Prototype component specifications
-* Design rationale
+## Work Completed
 
-## Main User Modules
+- Identified the purpose and scope of the e-governance application.
+- Analysed citizen requirements and expected system functionality.
+- Identified major user roles and system interactions.
+- Defined functional requirements.
+- Defined non-functional requirements.
+- Planned the overall system architecture.
+- Designed the major system workflow.
+- Identified important modules and components.
+- Prepared a Requirements Traceability Matrix.
+- Documented the initial technical and system planning.
 
-### Citizen Portal
+## Major Functional Areas
 
-* Service search
-* Service details
-* Eligibility checking
-* Online application
-* Document upload
-* Application tracking
-* Notifications
-* Feedback and support
+- User registration and authentication
+- Government service discovery
+- Service details and eligibility information
+- Online application
+- Document submission
+- Application tracking
+- Notifications
+- User account management
+- Help and feedback
 
-### Government Official Portal
+## Week 1 Deliverable
 
-* Application queue
-* Application review
-* Document verification
-* Clarification requests
-* Application approval/rejection
-* Case history
+**Requirements Analysis and System Planning Report**
 
-### Administration Portal
+---
 
-* Service management
-* User and role management
-* Workflow configuration
-* Reporting
-* Audit monitoring
+# Week 2 – Prototype Design for E-Governance Application
 
-## Proposed Architecture
+## Objective
 
-The planned system follows a modular, API-driven architecture consisting of:
+Week 2 focused on transforming the requirements identified in Week 1 into a visual prototype and user experience plan.
 
-* Web-based citizen portal
-* Government official portal
-* Administration portal
-* Backend API
-* Relational database
-* Secure document storage
-* Authentication and authorization
-* Notification services
-* Audit logging
-* Reporting and monitoring
+## Work Completed
 
-## Prototype Design Principles
+- Designed the proposed application interface.
+- Planned the home page and service discovery interface.
+- Designed service details and eligibility screens.
+- Planned the online application workflow.
+- Designed document upload and review stages.
+- Planned application tracking screens.
+- Designed navigation and user interaction flow.
+- Considered responsive design requirements.
+- Added UX considerations for clarity and accessibility.
+- Prepared wireframes/mockups and annotated diagrams.
+- Documented the reasoning behind the design decisions.
 
-The prototype follows these principles:
+## Main Prototype Screens
 
-* Citizen-first design
-* Simple and clear navigation
-* Plain-language content
-* Progressive disclosure
-* Consistent UI components
-* Accessibility
-* Mobile responsiveness
-* Transparent application status
-* Error prevention and recovery
-* Secure and trustworthy interaction
+1. Home Page
+2. Service Search
+3. Service Details
+4. Eligibility Check
+5. Application Form
+6. Document Upload
+7. Application Review
+8. Application Confirmation
+9. My Applications
+10. Application Tracking
+11. Help and Feedback
+12. User Account
 
-## Project Status
+## Week 2 Deliverable
 
-**Week 1 – Requirements Analysis and System Planning: Completed**
+**Prototype Design for E-Governance Application Report**
 
-**Week 2 – Prototype Design: Completed**
+---
 
-Future work will include detailed technical design, frontend/backend development, database implementation, API integration, testing, and deployment.
+# Week 3 – Front-End Development of User Interface
 
-## Project Author
+## Objective
 
-**Harsha vardhan. P**
+Week 3 focuses on converting the static prototype into an implementation-ready front-end development plan.
 
-## Repository Contents
+The goal is to establish the technology stack, front-end architecture, responsive layout, interactive components, code structure, state management, and backend integration approach.
+
+## Work Completed
+
+### Technology Selection
+
+The proposed front-end technology stack includes:
+
+- React
+- TypeScript
+- Vite
+- React Router
+- React Hook Form
+- Zod
+- TanStack Query
+- Vitest
+- Testing Library
+- ESLint
+- Prettier
+- CSS Modules and design tokens
+
+### Framework Selection
+
+**React** was selected as the primary front-end framework because it supports:
+
+- Reusable components
+- Component-based architecture
+- Scalable application structure
+- Interactive user interfaces
+- Strong development ecosystem
+- Easy integration with APIs
+- Suitable organization for complex forms and workflows
+
+**TypeScript** is used to improve code reliability, maintainability, and data-contract clarity.
+
+### Responsive Design
+
+The interface is planned for:
+
+- Mobile devices
+- Tablets
+- Desktop computers
+
+The responsive design strategy includes:
+
+- Flexible layouts
+- Responsive forms
+- Adaptive navigation
+- Mobile-friendly controls
+- Touch-friendly interaction areas
+- Responsive service cards
+- Readable error messages
+- No unnecessary horizontal scrolling
+
+### Interactive Elements
+
+The front-end plan includes:
+
+- Search bars
+- Service cards
+- Navigation menus
+- Buttons
+- Forms
+- Text fields
+- Dropdowns
+- Radio buttons
+- Checkboxes
+- File upload controls
+- Progress indicators
+- Application status timelines
+- Alerts
+- Modals
+- Feedback forms
+
+### State Management
+
+Different types of application state are planned separately:
+
+- Local UI state
+- Form state
+- Server state
+- Session state
+- Application draft state
+
+React Hook Form and Zod are planned for form handling and validation, while TanStack Query is planned for server-side data and API state.
+
+### Code Structure
+
+The planned front-end structure is:
 
 ```text
-e-governance-digital-service/
+src/
+├── app/
+│   ├── router/
+│   ├── providers/
+│   └── config/
 │
-├── README.md
+├── components/
+│   ├── ui/
+│   ├── forms/
+│   ├── service/
+│   └── application/
 │
-├── Week_1_E_Governance_Requirements_Analysis_and_System_Planning_Report.docx
+├── pages/
+│   ├── Home/
+│   ├── Services/
+│   ├── Application/
+│   ├── Tracking/
+│   ├── Account/
+│   └── Support/
 │
-└── Week_2_E_Governance_Prototype_Design_Report_Harsha_Vardhan_P.docx
-```
+├── features/
+│   ├── authentication/
+│   ├── services/
+│   ├── applications/
+│   ├── documents/
+│   └── feedback/
+│
+├── hooks/
+├── services/
+│   ├── apiClient.ts
+│   ├── servicesApi.ts
+│   └── applicationsApi.ts
+│
+├── schemas/
+├── types/
+├── utils/
+├── styles/
+└── tests/
